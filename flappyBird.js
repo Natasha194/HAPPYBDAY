@@ -8,11 +8,11 @@ var fg  =  new Image();
 var p1  =  new Image();
 var p2  =  new Image();
 
-bird.src = "images/bird.png";
-bg.src = "images/bg.png";
-fg.src = "images/fg.png";
-p1.src = "images/pipeNorth.png";
-p2.src = "images/pipeSouth.png";
+bird.src = "bird.png";
+bg.src = "bg.png";
+fg.src = "fg.png";
+p1.src = "pipeNorth.png";
+p2.src = "pipeSouth.png";
 
 
 var gap = 110;
@@ -26,8 +26,8 @@ var score = 0;
 var fly_sound = new Audio();
 var score_sound = new Audio();
 
-fly_sound.src = "sounds/fly.mp3";
-score_sound.src = "sounds/score.mp3";
+fly_sound.src = "fly.mp3";
+score_sound.src = "score.mp3";
 
 document.addEventListener("keydown",moveUp);
 
